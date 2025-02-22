@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="2ASK">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_double_ask|double_ask_rx:rx_inst|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_2jm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
