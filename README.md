@@ -26,10 +26,6 @@
 - [快速开始](#快速开始-)
 - [项目结构](#项目结构-)
 - [实现进度](#实现进度-%EF%B8%8F)
-- [仿真结果](#仿真结果-)
-- [贡献指南](#贡献指南-)
-- [学术引用](#学术引用-)
-- [许可证](#许可证-)
 
 ## 背景 📖
 本项目旨在构建可综合的通信算法Verilog IP核库，为以下场景提供硬件加速解决方案：
@@ -38,8 +34,7 @@
 - 卫星通信基带处理
 - 软件定义无线电(SDR)硬件加速
 
-**已实现**：2ASK调制解调全数字实现 (包含载波生成、非相干解调)  
-**开发中**：多模式可配置QAM调制器
+
 
 
 ## 硬件平台 💻
@@ -63,3 +58,21 @@
 ```bash
 git clone https://github.com/yourusername/communication-algorithm-onFPGA.git
 cd communication-algorithm-onFPGA/2ASK
+```
+### 2. 打开quartus_prj下的qpf文件 （即QUARTUS II 项目）
+### 3. 编译后仿真（推荐使用ModelSim进行仿真）
+
+
+## 项目结构 📕
+本仓库每个算法项目文件夹的结构如下：（例2ASK）
+- 2ASK
+  - doc （开发原理文档 包含波形图等信息）
+  - quartus_prj （quartus ii 项目文件夹）
+  - matlab (Matlab 仿真文件)
+  - rtl （Verilog代码文件）
+  - sim （仿真代码文件）
+
+## 实现进度 🔋
+
+- 2025.2.22 实现 2ASK 调制解调算法
+
