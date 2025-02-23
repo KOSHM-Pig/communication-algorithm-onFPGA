@@ -57,7 +57,7 @@
 ## 快速开始 ⚡
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/communication-algorithm-onFPGA.git
+git clone https://github.com/KOSHM-Pig/communication-algorithm-onFPGA.git
 cd communication-algorithm-onFPGA/2ASK
 ```
 ### 2. 打开quartus_prj下的qpf文件 （即QUARTUS II 项目）
