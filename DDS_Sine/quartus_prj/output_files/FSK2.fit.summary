@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Feb 25 19:53:12 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : FSK2
+Top-level Entity Name : sine_lut_1024x16
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 1 / 10,320 ( < 1 % )
+    Total combinational functions : 1 / 10,320 ( < 1 % )
+    Dedicated logic registers : 1 / 10,320 ( < 1 % )
+Total registers : 1
+Total pins : 28 / 180 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 16,384 / 423,936 ( 4 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

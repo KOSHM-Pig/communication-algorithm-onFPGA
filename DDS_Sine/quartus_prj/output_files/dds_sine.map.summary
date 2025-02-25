@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb 25 20:04:27 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : dds_sine
+Top-level Entity Name : sine_lut_1024x16
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 1
+    Dedicated logic registers : 1
+Total registers : 1
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 16,384
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,9 @@
+clc;
+
+max = 1024;
+
+theta = (0:max-1) * (2*pi / max) ;
+
+sine_values = round(1023 * sin(theta));
+
+plot(sine_values); %画图

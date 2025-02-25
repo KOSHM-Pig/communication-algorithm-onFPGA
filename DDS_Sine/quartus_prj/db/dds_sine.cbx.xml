@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dds_sine">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sine_lut_1024x16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ald1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
