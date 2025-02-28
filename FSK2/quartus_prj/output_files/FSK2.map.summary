@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Feb 28 16:37:04 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : FSK2
+Top-level Entity Name : fsk2
+Family : Cyclone IV E
+Total logic elements : 3,192
+    Total combinational functions : 1,788
+    Dedicated logic registers : 1,940
+Total registers : 1940
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 32,768
+Embedded Multiplier 9-bit elements : 46
+Total PLLs : 0

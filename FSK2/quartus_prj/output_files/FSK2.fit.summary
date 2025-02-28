@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Feb 28 16:37:12 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : FSK2
+Top-level Entity Name : fsk2
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 2,560 / 10,320 ( 25 % )
+    Total combinational functions : 1,788 / 10,320 ( 17 % )
+    Dedicated logic registers : 1,940 / 10,320 ( 19 % )
+Total registers : 1940
+Total pins : 19 / 180 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 32,768 / 423,936 ( 8 % )
+Embedded Multiplier 9-bit elements : 46 / 46 ( 100 % )
+Total PLLs : 0 / 2 ( 0 % )

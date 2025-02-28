@@ -1,0 +1,152 @@
+Flow report for FSK2
+Fri Feb 28 16:37:26 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------+
+; Flow Summary                                                                          ;
++------------------------------------+--------------------------------------------------+
+; Flow Status                        ; Successful - Fri Feb 28 16:37:26 2025            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; FSK2                                             ;
+; Top-level Entity Name              ; fsk2                                             ;
+; Family                             ; Cyclone IV E                                     ;
+; Device                             ; EP4CE10F17C8                                     ;
+; Timing Models                      ; Final                                            ;
+; Total logic elements               ; 2,560 / 10,320 ( 25 % )                          ;
+;     Total combinational functions  ; 1,788 / 10,320 ( 17 % )                          ;
+;     Dedicated logic registers      ; 1,940 / 10,320 ( 19 % )                          ;
+; Total registers                    ; 1940                                             ;
+; Total pins                         ; 19 / 180 ( 11 % )                                ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 32,768 / 423,936 ( 8 % )                         ;
+; Embedded Multiplier 9-bit elements ; 46 / 46 ( 100 % )                                ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                    ;
++------------------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/28/2025 16:37:01 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; FSK2                ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                       ;
++--------------------------------------+--------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                            ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+--------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 381409747409.174073182118936                     ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                               ; --            ; --          ; tb_dds_sine    ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                               ; --            ; --          ; tb_fsk2_tx     ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_fsk2_tx                                       ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                      ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (Verilog)                               ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                  ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; ../sim/tb_dds_sine.v                             ; --            ; --          ; tb_dds_sine    ;
+; EDA_TEST_BENCH_FILE                  ; ../rtl/dds_sine.v                                ; --            ; --          ; tb_dds_sine    ;
+; EDA_TEST_BENCH_FILE                  ; ../sim/tb_fsk2_tx.v                              ; --            ; --          ; tb_fsk2_tx     ;
+; EDA_TEST_BENCH_FILE                  ; ../rtl/fir_lowpassfilter.v                       ; --            ; --          ; tb_fsk2_tx     ;
+; EDA_TEST_BENCH_FILE                  ; ip_core/mult_x16_h8_xh20/mult_x16_h8_xh20.v      ; --            ; --          ; tb_fsk2_tx     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_dds_sine                                      ; --            ; --          ; tb_dds_sine    ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_fsk2_tx                                       ; --            ; --          ; tb_fsk2_tx     ;
+; EDA_TEST_BENCH_NAME                  ; tb_dds_sine                                      ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; tb_fsk2_tx                                       ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1 us                                             ; --            ; --          ; tb_dds_sine    ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1 us                                             ; --            ; --          ; tb_fsk2_tx     ;
+; EDA_TIME_SCALE                       ; 1 ps                                             ; --            ; --          ; eda_simulation ;
+; IP_TOOL_NAME                         ; ROM: 1-PORT                                      ; --            ; --          ; --             ;
+; IP_TOOL_NAME                         ; LPM_MULT                                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 13.0                                             ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 13.0                                             ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                               ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip_core/sine_lut_1024x16/sine_lut_1024x16_inst.v ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip_core/mult_x16_h8_xh20/mult_x16_h8_xh20_inst.v ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                             ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; 16764057                                         ; --            ; fsk2        ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                            ; --            ; fsk2        ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                           ; --            ; fsk2        ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                              ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW            ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                     ; --            ; --          ; --             ;
++--------------------------------------+--------------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4672 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:08     ; 2.9                     ; 5913 MB             ; 00:00:15                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 4570 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4767 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4555 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:24                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; 1137578          ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; 1137578          ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; 1137578          ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; 1137578          ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; 1137578          ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off FSK2 -c FSK2
+quartus_fit --read_settings_files=off --write_settings_files=off FSK2 -c FSK2
+quartus_asm --read_settings_files=off --write_settings_files=off FSK2 -c FSK2
+quartus_sta FSK2 -c FSK2
+quartus_eda --read_settings_files=off --write_settings_files=off FSK2 -c FSK2
+
+
+
